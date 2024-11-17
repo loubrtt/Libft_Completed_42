@@ -10,12 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
 #include "libft.h"
+#include <stdio.h>
 #include <stdlib.h>
 
-int	intlen(int n, int sign)
+static int	intlen(int n, int sign)
 {
 	int	len;
 
@@ -41,7 +40,7 @@ int	intlen(int n, int sign)
 	return (len);
 }
 
-void	fill_str(char *result, unsigned int i, int len, int sign)
+static void	fill_str(char *result, unsigned int i, int len, int sign)
 {
 	result[len--] = '\0';
 	if (i == 0)

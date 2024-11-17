@@ -11,10 +11,10 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 #include <stddef.h>
+#include <stdlib.h>
 
-size_t	countwords(const char *str, char c)
+static size_t	countwords(const char *str, char c)
 {
 	size_t	i;
 	size_t	count;
@@ -26,7 +26,7 @@ size_t	countwords(const char *str, char c)
 		if (str[i] == c)
 		{
 			while (str[i] == c && str[i])
-				i ++;
+				i++;
 		}
 		if (str[i] != c && str[i] != '\0')
 		{
@@ -38,7 +38,7 @@ size_t	countwords(const char *str, char c)
 	return (count);
 }
 
-size_t	ft_lenwords(const char *s, int index, char c)
+static size_t	ft_lenwords(const char *s, int index, char c)
 {
 	size_t	i;
 	size_t	len;
@@ -65,7 +65,7 @@ size_t	ft_lenwords(const char *s, int index, char c)
 	return (len);
 }
 
-void	fillwords(char **bigtab, const char *s, char c)
+static void	fillwords(char **bigtab, const char *s, char c)
 {
 	int		i;
 	int		y;
@@ -88,13 +88,13 @@ void	fillwords(char **bigtab, const char *s, char c)
 
 char	**ft_split(char const *s, char c)
 {
-	char		**bigtab;
-	size_t		index;
-	size_t		y;
+	char	**bigtab;
+	size_t	index;
+	size_t	y;
 
 	y = 0;
 	index = 1;
-	bigtab = malloc(sizeof (char *) * (countwords(s, c) + 1));
+	bigtab = malloc(sizeof(char *) * (countwords(s, c) + 1));
 	if (bigtab == NULL)
 		return (NULL);
 	while (y < countwords(s, c))
@@ -120,7 +120,7 @@ char	**ft_split(char const *s, char c)
 
 // 	char **split = ft_split(" Tripouille ", ' ');
 // 	printf("%zu", ft_lenwords(" Tripouille ", 0, ' '));
-// 	if (split == NULL) 
+// 	if (split == NULL)
 // 		return (0);
 // 	while (split[i])
 // 	{

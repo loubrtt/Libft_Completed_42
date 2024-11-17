@@ -14,7 +14,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-int	checkchar(char c, char const *str)
+static int	checkchar(char c, char const *str)
 {
 	int	i;
 
