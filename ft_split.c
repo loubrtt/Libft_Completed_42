@@ -118,10 +118,7 @@ char	**ft_split(char const *s, char c)
 // 	char c = 32;
 // 	int j = 0;
 
-// 	char **split = ft_split(" Tripouille ", ' ');
-// 	printf("%zu", ft_lenwords(" Tripouille ", 0, ' '));
-// 	if (split == NULL)
-// 		return (0);
+// 	char **split = ft_split(str);
 // 	while (split[i])
 // 	{
 // 		while (split[i][j] != '\0')
