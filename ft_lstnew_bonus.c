@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstnew.c                                        :+:      :+:    :+:   */
+/*   ft_lstnew_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 00:48:03 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/11 00:47:24 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:38:29 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,11 @@ t_list	*ft_lstnew(void *content)
 // #include <stdio.h>
 // int main (void)
 // {
-// 	int content[1] = {10} ;
-// 	t_list *list = ft_lstnew(content);
-// 	printf("%d", *(int *)list->content);
+// 	int *i;
+// 	int a;
+	
+// 	a = 10;
+// 	i = &a;
+// 	t_list *list = ft_lstnew(i);
+// 	printf("mon int = %d \n\nle node creer avec mon int = %d", *i, *(int *)list->content);
 // }

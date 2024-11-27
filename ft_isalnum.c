@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 17:13:17 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/12 03:52:41 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:17:19 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,6 @@ int	ft_isalnum(int c)
 // int main (void)
 // {
 //     int i = 47;
+	
 //     printf("%d", ft_isalnum(i));
 // }

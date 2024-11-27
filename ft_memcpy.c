@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 17:23:51 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/12 04:10:38 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:42:44 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,10 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 // #include <string.h>
 // int main (void)
 // {
-// 	char dest[] = "coucou";
-// 	char src[] = "hello";
-// 	char desti[] = "coucou";
-// 	char srci[] = "hello";
+// 	char dest[] = "code";
+// 	char src[] = "ligne de code";
+// 	char desti[] = "code";
+// 	char srci[] = "ligne de code";
 // 	size_t len = 4;
 // 	ft_memcpy(dest, src, len);
 // 	memcpy(desti, srci, len);

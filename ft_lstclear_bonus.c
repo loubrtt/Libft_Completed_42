@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 00:39:39 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/13 02:17:45 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:27:50 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,29 +15,26 @@
 
 void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
-	t_list	*suivant;
+	t_list	*to_delete;
 
 	if (lst == NULL || del == NULL)
 		return ;
 	while (lst && *lst)
 	{
-		suivant = (*lst)->next;
+		to_delete = (*lst)->next;
 		ft_lstdelone(*lst, del);
-		*lst = suivant;
+		*lst = to_delete;
 	}
 }
 
 // void delete(void *tosupp)
 // {
-// 	unsigned char *supp;
-// 	supp = (unsigned char *)tosupp;
-// 	int i = 0;
-// 	while (supp[i] != 0)
-// 	{
-// 		supp[i] = 0;
-// 		i++;
-// 	}
+// 	int *supp = (int *)tosupp;
+// 	if(*supp != 0)
+// 		return ;
+// 	supp = 0;
 // }
+
 // #include <stdio.h>
 // int main (void)
 // {

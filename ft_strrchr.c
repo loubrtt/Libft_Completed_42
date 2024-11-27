@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 19:01:28 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/11 00:48:43 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:59:10 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,8 @@ char	*ft_strrchr(const char *s, int c)
 // #include <stdio.h>
 // int main (void)
 // {
-//     char *str = "hello les bebews";
+//     char *str = "Ligne de code";
 
-//     printf("%s \n", ft_strrchr(str,'t' + 256));
-// 	printf("%s", ft_strrchr(str,'t' + 256));
+//     printf("%s \n", ft_strrchr(str, 32));
+// 	printf("%s", ft_strrchr(str, 32));
 // }

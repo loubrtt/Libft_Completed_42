@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 19:00:41 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/13 23:22:29 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 14:01:06 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 // #include <stdio.h>
 // int main (void)
 // {
-//     char *txt = "lou";
-//     unsigned int start = 100;
+//     char *str = "Ligne de code";
+//     unsigned int start = 6;
 //     size_t len = 1;
-// 	char *newstring = ft_substr(txt, start, len);
-//     printf("%s", newstring);
+//	printf("ma string = %s\n", str);
+// 	char *newstring = ft_substr(str, start, len);
+//     printf("la nouvelle string %s", newstring);
 // 	free(newstring);
 // }

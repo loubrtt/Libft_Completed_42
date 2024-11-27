@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 19:03:27 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/11 00:48:19 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:53:14 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 // #include <stdio.h>
 // int main (void)
 // {
-// 	char *s1 = "Hello ";
-// 	char *s2 = "les coupains!!";
+// 	char *s1 = "Ligne ";
+// 	char *s2 = "de code";
 // 	printf("%s", ft_strjoin(s1, s2));
 // }

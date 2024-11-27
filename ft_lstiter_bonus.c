@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstiter.c                                       :+:      :+:    :+:   */
+/*   ft_lstiter_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lobriott <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 00:42:49 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/08 00:44:25 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:30:59 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,9 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 }
 
 // #include <stdio.h>
-// void modif(void *tomod)
+// void multiply(void *content)
 // {
-// 	*(int *)tomod *= 10;
+// 	*(int *)content *= 10;
 // }
 
 // int main (void)
@@ -42,9 +42,9 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 // 	t_list *list = ft_lstnew(&a);
 // 	t_list *new = ft_lstnew(&b);
 // 	ft_lstadd_back(&list, new);
-// 	printf("[%d] valeur 1\n", *(int *)list->content);
-// 	printf("[%d] valeur 1\n", *(int *)list->next->content);
-// 	ft_lstiter(list, &modif);
-// 	printf("[%d] valeur 1\n", *(int *)list->content);
-// 	printf("[%d] valeur 1\n", *(int *)list->next->content);
+// 	printf("[%d] valeur 1 avant la fonction\n", *(int *)list->content);
+// 	printf("[%d] valeur 2 avant la fonction\n\n", *(int *)list->next->content);
+// 	ft_lstiter(list, &multiply);
+// 	printf("[%d] valeur 1 apres la fonction\n", *(int *)list->content);
+// 	printf("[%d] valeur 2 apres la fonction\n", *(int *)list->next->content);
 // }

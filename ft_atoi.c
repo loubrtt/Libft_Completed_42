@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 17:09:17 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/12 03:37:27 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:12:55 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int	ft_atoi(const char *str)
 // #include <stdio.h>
 // int main (void)
 // {
-//     const char *str = "1";
-//     printf("ma ft : %d \n", ft_atoi(str));
-// 	printf("la ft officielle : %d", atoi(str));
+//     const char *str = "-1";
+//     printf("ma fonction => : %d \n", ft_atoi(str));
+// 	printf("la fonction officielle => : %d", atoi(str));
 // }

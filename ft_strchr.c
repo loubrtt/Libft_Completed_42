@@ -5,22 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/06 19:03:46 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/13 23:20:19 by lobriott         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#include "libft.h"
-
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   strchr.c                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: vinguyen <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 00:42:06 by vinguyen          #+#    #+#             */
-/*   Updated: 2019/10/01 00:42:07 by vinguyen         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:50:07 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,8 +32,8 @@ char	*ft_strchr(const char *s, int c)
 // #include <string.h>
 // int main (void)
 // {
-//     char *str = "tripouille";
+//     char *str = "Ligne de code";
 
-//     printf("%s yeah\n", ft_strchr(str, 0));
-// 	printf("%s yeah", strchr(str, 0));
+//     printf("%s = ma fonction\n", ft_strchr(str, 32));
+// 	printf("%s = fonction officielle", strchr(str, 32));
 // }

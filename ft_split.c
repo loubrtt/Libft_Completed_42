@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 15:54:29 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/12 00:52:27 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:48:00 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,10 @@ char	**ft_split(char const *s, char c)
 	{
 		bigtab[y] = malloc(sizeof(char) * (ft_lenwords(s, y, c) + 1));
 		if (bigtab[y] == NULL)
+		{
+			free (bigtab);
 			return (NULL);
+		}
 		y++;
 		index++;
 	}
@@ -113,12 +116,12 @@ char	**ft_split(char const *s, char c)
 // #include <stdio.h>
 // int main (void)
 // {
-// //	char *str = "Hello les    coupains";
+// 	char *str = "Ligne de code";
 // 	int i = 0;
-// 	char c = 32;
+// 	char separateur = ' ';
 // 	int j = 0;
 
-// 	char **split = ft_split(str);
+// 	char **split = ft_split(str, separateur);
 // 	while (split[i])
 // 	{
 // 		while (split[i][j] != '\0')
@@ -126,8 +129,6 @@ char	**ft_split(char const *s, char c)
 // 			printf("%c", split[i][j]);
 // 			j ++;
 // 		}
-// 		printf("<== %zu <= taille mot %d",
-// ft_lenwords("  tripouille  42  ", i , c), i);
 // 		printf("\n");
 // 		i++;
 // 		j = 0;

@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 00:11:34 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/13 02:15:22 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:41:42 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,11 @@ void	*ft_memchr(const void *s, int c, size_t n)
 // #include <string.h>
 // int main (void)
 // {
-//     char *s = "hello les copains";
+//     char *s = "ligne de code.";
 //     int c = 108;
-//     char *si = "hello les copains";
-//     int ci = 108;
+//     char *s1 = "ligne de code";
+//     int c1 = 108;
 //     size_t i = 0;
-//     printf("ma ft %s \n ft off %s", (char *)ft_memchr(s,c, i), 
-//     (char *)memchr(si,ci , i));
+//     printf("ma fonction = %s \n\nla fonction officielle %s", (char *)ft_memchr(s,c, i), 
+//     (char *)memchr(s1,c1 , i));
 // }

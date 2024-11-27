@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstsize.c                                       :+:      :+:    :+:   */
+/*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 00:49:27 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/11 00:47:21 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:40:13 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	ft_lstsize(t_list *lst)
 // 	t_list *list = ft_lstnew(&a);
 // 	t_list *new = ft_lstnew(&b);
 // 	ft_lstadd_back(&list, new);
-// 	printf("[%d]\n[%d]\n", *(int *)list ->content,
+// 	printf("premier node = [%d]\ndeuxieme node = [%d]\n\n", *(int *)list ->content,
 // 	*(int *)list ->next->content);
-// 	printf("%d", ft_lstsize(list));
+// 	printf("taille de la liste = %d", ft_lstsize(list));
 // }

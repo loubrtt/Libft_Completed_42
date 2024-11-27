@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 19:02:09 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/11 00:48:36 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:58:26 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 // #include <stdio.h>
 // int main (void)
 // {
-//     printf("ma ft => %d \n", ft_strncmp("test\200", "test\0", 6));
-//     printf("ft originale => %d", strncmp("test\200", "test\0", 6));
+//     printf("ma fonction => %d \n", ft_strncmp("test\200", "test\0", 6));
+//     printf("la fonction officielle => %d", strncmp("test\200", "test\0", 6));
 // }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lobriott <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 22:25:42 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/12 22:25:49 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:57:57 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,10 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // 	}
 // 	return (c);
 // }
+
 // #include <stdio.h>
 // int main (void)
 // {
 // 	char *str = "HELLO";
-// 	printf("%s", ft_strmapi(str, &maft));
+// 	printf("%s = ma string \n\n %s = ma string apres ma fonction", str, ft_strmapi(str, &maft));
 // }

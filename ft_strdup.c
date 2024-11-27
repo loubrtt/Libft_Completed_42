@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 18:37:25 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/11 00:48:10 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:50:39 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ char	*ft_strdup(const char *s1)
 // #include <stdio.h>
 // int main (void)
 // {
-// char *str = "hello";
-// printf("%s \n", ft_strdup(str));
-// printf("%s", strdup(str));
+// char *str = "Ligne de code";
+// printf("%s = ma fonction\n", ft_strdup(str));
+// printf("%s = fonction officielle", strdup(str));
 // }

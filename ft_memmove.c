@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 17:25:18 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/12 20:27:02 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:43:30 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,10 +43,10 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 #include <stdio.h>
 int main (void)
 {
-char src[] = "Holl";
-char dst[] = "heyhey";
-char src1[] = "Holl";
-char dst1[] = "heyhey";
+char src[] = "ligne de code";
+char dst[] = "python";
+char src1[] = "ligne de code";
+char dst1[] = "python";
 size_t len = 5;
 printf("%s \n", (char *)ft_memmove(dst, src, len));
 printf("%s \n", (char *)memmove(dst1, src1, len));

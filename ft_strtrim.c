@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 19:01:08 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/12 00:58:17 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:59:35 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,8 +53,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 // int	main(void)
 // {
-// 	char	*s1;
+// 	char	*str;
 
-// 	s1 = "lorem \n ipsum \t dolor \n sit \t amet";
+// 	str = "Ligne de code";
 // 	printf("%s", ft_strtrim(s1, " "));
 // }

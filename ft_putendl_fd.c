@@ -6,7 +6,7 @@
 /*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:06:37 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/11 00:01:43 by loubriottet      ###   ########.fr       */
+/*   Updated: 2024/11/27 13:44:21 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,5 @@ void	ft_putendl_fd(char *s, int fd)
 
 // int main (void)
 // {
-// 	ft_putendl_fd("hello", 1);
+// 	ft_putendl_fd("ligne de code", 1);
 // }

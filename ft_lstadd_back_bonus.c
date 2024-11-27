@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
+/*   ft_lstadd_back_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lobriott <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 00:32:43 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/08 00:36:54 by lobriott         ###   ########.fr       */
+/*   Updated: 2024/11/27 13:25:57 by loubriottet      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,12 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 // #include <stdio.h>
 // int main (void)
 // {
-// 	int content1 = 10 ;
-// 	int content2 = 9;
+// 	int content1 = 10;
+// 	int content2 = 15;
 // 	t_list *list = ft_lstnew(&content1);
-// 	printf("premier element %d", *(int *)list->content);
 // 	t_list *new = ft_lstnew(&content2);
+	
+// 	printf("premier element %d \n", *(int *)list->content);
 // 	ft_lstadd_back(&list, new);
 // 	printf("element suivant %d", *(int *)list->next ->content);
 // }
